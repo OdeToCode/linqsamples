@@ -33,11 +33,12 @@ namespace Features
             };
 
             var query = developers.Where(e => e.Name.Length == 5)
-                                  .OrderBy(e => e.Name);
+                                  .OrderByDescending(e => e.Name)
+                                  .Select(e => e);
 
             var query2 = from developer in developers
                          where developer.Name.Length == 5
-                         orderby developer.Name
+                         orderby developer.Name descending
                          select developer;
 
             foreach (var employee in query2)
