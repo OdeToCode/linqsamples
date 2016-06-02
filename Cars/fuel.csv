@@ -18,14 +18,14 @@ Model Year,Division,Carline,Eng Displ,# Cyl,City FE,Hwy FE,Comb FE
 2016,Chevrolet,CORVETTE,6.2,8,15,22,18
 2016,Chevrolet,CORVETTE,6.2,8,17,29,21
 2016,Dodge,Viper SRT,8.4,10,12,21,15
-2016,"Ferrari North America, Inc.",488 GTB,3.9,8,15,22,18
-2016,"Ferrari North America, Inc.",488 GTB,3.9,8,16,22,18
-2016,"Ferrari North America, Inc.",F12,6.3,12,11,16,13
-2016,"Ferrari North America, Inc.",F12,6.3,12,12,16,13
-2016,"Ferrari North America, Inc.",F12 tdf,6.3,12,12,17,13
-2016,"Ferrari North America, Inc.",F12 tdf,6.3,12,11,15,12
-2016,"Ferrari North America, Inc.",F60 America,6.3,12,12,15,13
-2016,"Ferrari North America, Inc.",F60 America,6.3,12,11,15,13
+2016,Ferrari,488 GTB,3.9,8,15,22,18
+2016,Ferrari,488 GTB,3.9,8,16,22,18
+2016,Ferrari,F12,6.3,12,11,16,13
+2016,Ferrari,F12,6.3,12,12,16,13
+2016,Ferrari,F12 tdf,6.3,12,12,17,13
+2016,Ferrari,F12 tdf,6.3,12,11,15,12
+2016,Ferrari,F60 America,6.3,12,12,15,13
+2016,Ferrari,F60 America,6.3,12,11,15,13
 2016,Honda,CR-Z,1.5,4,36,39,37
 2016,Honda,CR-Z,1.5,4,31,38,34
 2016,Jaguar,F-TYPE Convertible,3.0,6,19,28,22
@@ -84,8 +84,8 @@ Model Year,Division,Carline,Eng Displ,# Cyl,City FE,Hwy FE,Comb FE
 2016,Porsche,Cayman S,3.4,6,20,28,23
 2016,Aston Martin Lagonda Ltd,DB9,5.9,12,13,19,15
 2016,Aston Martin Lagonda Ltd,Vanquish,6.0,12,13,21,16
-2016,"Ferrari North America, Inc.",California T,3.9,8,16,23,19
-2016,"Ferrari North America, Inc.",California T,3.9,8,16,23,18
+2016,Ferrari,California T,3.9,8,16,23,19
+2016,Ferrari,California T,3.9,8,16,23,18
 2016,FIAT,500,1.4,4,24,32,27
 2016,FIAT,500,1.4,4,27,34,30
 2016,FIAT,500,1.4,4,28,34,30
@@ -221,8 +221,8 @@ Model Year,Division,Carline,Eng Displ,# Cyl,City FE,Hwy FE,Comb FE
 2016,Mini,MINI John Cooper Works Hardtop,2.0,4,25,31,28
 2016,Mini,MINI John Cooper Works Hardtop,2.0,4,23,31,26
 2016,NISSAN,GT-R,3.8,6,16,22,19
-2016,"Roush Industries, Inc.",Roush Stage 3 Mustang,5.0,8,13,23,16
-2016,"Roush Industries, Inc.",Roush Stage 3 Mustang,5.0,8,12,23,16
+2016,Roush,Roush Stage 3 Mustang,5.0,8,13,23,16
+2016,Roush,Roush Stage 3 Mustang,5.0,8,12,23,16
 2016,SCION,iA,1.5,4,33,42,37
 2016,SCION,iA,1.5,4,31,41,35
 2016,Volkswagen,Beetle Convertible,1.8,4,25,34,28
@@ -419,15 +419,15 @@ Model Year,Division,Carline,Eng Displ,# Cyl,City FE,Hwy FE,Comb FE
 2016,Volkswagen,Jetta,2.0,4,24,33,27
 2016,Volkswagen,Jetta,2.0,4,23,33,27
 2016,Volkswagen,Jetta Hybrid,1.4,4,42,48,44
-2016,"Volvo Cars of North America, LLC",S60 AWD,2.0,4,22,31,25
-2016,"Volvo Cars of North America, LLC",S60 AWD,2.5,5,20,29,23
-2016,"Volvo Cars of North America, LLC",S60 AWD,3.0,6,18,27,21
-2016,"Volvo Cars of North America, LLC",S60 CC AWD,2.5,5,20,28,23
-2016,"Volvo Cars of North America, LLC",S60 FWD,2.0,4,26,38,30
-2016,"Volvo Cars of North America, LLC",S60 FWD,2.0,4,23,33,27
-2016,"Volvo Cars of North America, LLC",S60 Inscription AWD,2.5,5,20,29,23
-2016,"Volvo Cars of North America, LLC",S60 Inscription FWD,2.0,4,25,37,29
-2016,"Volvo Cars of North America, LLC",S60 Polestar AWD,3.0,6,18,27,21
+2016,Volvo,S60 AWD,2.0,4,22,31,25
+2016,Volvo,S60 AWD,2.5,5,20,29,23
+2016,Volvo,S60 AWD,3.0,6,18,27,21
+2016,Volvo,S60 CC AWD,2.5,5,20,28,23
+2016,Volvo,S60 FWD,2.0,4,26,38,30
+2016,Volvo,S60 FWD,2.0,4,23,33,27
+2016,Volvo,S60 Inscription AWD,2.5,5,20,29,23
+2016,Volvo,S60 Inscription FWD,2.0,4,25,37,29
+2016,Volvo,S60 Polestar AWD,3.0,6,18,27,21
 2016,Acura,RLX,3.5,6,28,32,30
 2016,Acura,RLX,3.5,6,20,31,24
 2016,Audi,A6,2.0,4,24,35,28
@@ -504,8 +504,8 @@ Model Year,Division,Carline,Eng Displ,# Cyl,City FE,Hwy FE,Comb FE
 2016,Dodge,Dart Aero,1.4,4,28,41,32
 2016,Dodge,Dart GT,2.4,4,22,31,26
 2016,Dodge,Dart GT,2.4,4,23,33,27
-2016,"Ferrari North America, Inc.",FF,6.3,12,11,17,13
-2016,"Ferrari North America, Inc.",FF,6.3,12,11,16,13
+2016,Ferrari,FF,6.3,12,11,17,13
+2016,Ferrari,FF,6.3,12,11,16,13
 2016,Ford,FOCUS RS AWD,2.3,4,19,25,22
 2016,Ford,Focus ST FWD,2.0,4,22,31,25
 2016,Ford,FUSION AWD,2.0,4,22,31,25
@@ -624,7 +624,7 @@ Model Year,Division,Carline,Eng Displ,# Cyl,City FE,Hwy FE,Comb FE
 2016,TOYOTA,PRIUS Eco,1.8,4,58,53,56
 2016,Volkswagen,Passat,1.8,4,25,38,29
 2016,Volkswagen,Passat,3.6,6,20,28,23
-2016,"Volvo Cars of North America, LLC",S80 FWD,2.0,4,25,37,29
+2016,Volvo,S80 FWD,2.0,4,25,37,29
 2016,Audi,A8L,3.0,6,24,36,28
 2016,Audi,A8L,3.0,6,19,29,22
 2016,Audi,A8L,4.0,8,18,29,22
@@ -753,12 +753,12 @@ Model Year,Division,Carline,Eng Displ,# Cyl,City FE,Hwy FE,Comb FE
 2016,Subaru,IMPREZA WAGON,2.0,4,25,34,28
 2016,Volkswagen,Golf SportWagen,1.8,4,25,35,29
 2016,Volkswagen,Golf SportWagen,1.8,4,25,36,29
-2016,"Volvo Cars of North America, LLC",V60 AWD,2.0,4,22,31,25
-2016,"Volvo Cars of North America, LLC",V60 AWD,2.5,5,20,29,23
-2016,"Volvo Cars of North America, LLC",V60 AWD,3.0,6,18,27,21
-2016,"Volvo Cars of North America, LLC",V60 FWD,2.0,4,25,37,29
-2016,"Volvo Cars of North America, LLC",V60 Polestar AWD,3.0,6,18,27,21
-2016,"Volvo Cars of North America, LLC",V60CC AWD,2.5,5,20,28,23
+2016,Volvo,V60 AWD,2.0,4,22,31,25
+2016,Volvo,V60 AWD,2.5,5,20,29,23
+2016,Volvo,V60 AWD,3.0,6,18,27,21
+2016,Volvo,V60 FWD,2.0,4,25,37,29
+2016,Volvo,V60 Polestar AWD,3.0,6,18,27,21
+2016,Volvo,V60CC AWD,2.5,5,20,28,23
 2016,Mercedes-Benz,AMG E 63 S 4MATIC (stat. wagon),5.5,8,15,21,18
 2016,Mercedes-Benz,AMG GLA 45 4MATIC,2.0,4,22,29,25
 2016,Mercedes-Benz,E 350 4Matic (Wagon),3.5,6,20,27,22
@@ -820,7 +820,7 @@ Model Year,Division,Carline,Eng Displ,# Cyl,City FE,Hwy FE,Comb FE
 2016,RAM,1500 4X2,5.7,8,15,22,17
 2016,RAM,1500 HFE 4X2,3.0,6,21,29,24
 2016,RAM,1500 HFE 4X2,3.6,6,18,25,21
-2016,"Roush Industries, Inc.",F150 Pickup 2WD,5.0,8,12,15,13
+2016,Roush,F150 Pickup 2WD,5.0,8,12,15,13
 2016,TOYOTA,TUNDRA 2WD,4.6,8,15,19,16
 2016,TOYOTA,TUNDRA 2WD,5.7,8,13,18,15
 2016,TOYOTA,TUNDRA 2WD FFV,5.7,8,13,18,15
@@ -847,7 +847,7 @@ Model Year,Division,Carline,Eng Displ,# Cyl,City FE,Hwy FE,Comb FE
 2016,RAM,1500 4X4,3.6,6,16,23,19
 2016,RAM,1500 4X4,5.7,8,13,19,15
 2016,RAM,1500 4X4,5.7,8,15,21,17
-2016,"Roush Industries, Inc.",F150 Pickup 4WD,5.0,8,12,15,13
+2016,Roush,F150 Pickup 4WD,5.0,8,12,15,13
 2016,TOYOTA,TUNDRA 4WD,4.6,8,14,18,16
 2016,TOYOTA,TUNDRA 4WD,5.7,8,13,17,15
 2016,TOYOTA,TUNDRA 4WD FFV,5.7,8,13,17,15
@@ -970,9 +970,9 @@ Model Year,Division,Carline,Eng Displ,# Cyl,City FE,Hwy FE,Comb FE
 2016,TOYOTA,RAV4,2.5,4,23,30,26
 2016,TOYOTA,RAV4 LE/XLE,2.5,4,24,31,26
 2016,Volkswagen,Tiguan,2.0,4,21,26,23
-2016,"Volvo Cars of North America, LLC",XC60 FWD,2.0,4,23,31,26
-2016,"Volvo Cars of North America, LLC",XC60 FWD,2.0,4,22,29,24
-2016,"Volvo Cars of North America, LLC",XC70 FWD,2.0,4,23,31,26
+2016,Volvo,XC60 FWD,2.0,4,23,31,26
+2016,Volvo,XC60 FWD,2.0,4,22,29,24
+2016,Volvo,XC70 FWD,2.0,4,23,31,26
 2016,Acura,MDX 4WD,3.5,6,19,26,22
 2016,Acura,MDX 4WD,3.5,6,18,26,21
 2016,Acura,RDX 4WD,3.5,6,19,28,22
@@ -1077,10 +1077,10 @@ Model Year,Division,Carline,Eng Displ,# Cyl,City FE,Hwy FE,Comb FE
 2016,TOYOTA,RAV4 HYBRID AWD,2.5,4,34,31,33
 2016,TOYOTA,RAV4 Limited AWD/SE AWD,2.5,4,22,29,25
 2016,Volkswagen,Tiguan 4Motion,2.0,4,20,26,23
-2016,"Volvo Cars of North America, LLC",XC60 AWD,2.0,4,19,27,22
-2016,"Volvo Cars of North America, LLC",XC60 AWD,2.5,5,19,26,22
-2016,"Volvo Cars of North America, LLC",XC60 AWD,3.0,6,17,23,20
-2016,"Volvo Cars of North America, LLC",XC70 AWD,2.5,5,19,26,22
+2016,Volvo,XC60 AWD,2.0,4,19,27,22
+2016,Volvo,XC60 AWD,2.5,5,19,26,22
+2016,Volvo,XC60 AWD,3.0,6,17,23,20
+2016,Volvo,XC70 AWD,2.5,5,19,26,22
 2016,BMW,X5 sDrive35i,3.0,6,18,25,21
 2016,BMW,X6 sDrive35i,3.0,6,18,25,21
 2016,Buick,ENCLAVE FWD,3.6,6,15,22,18
@@ -1116,7 +1116,7 @@ Model Year,Division,Carline,Eng Displ,# Cyl,City FE,Hwy FE,Comb FE
 2016,Mercedes-Benz,GLE 350,3.5,6,18,24,20
 2016,TOYOTA,4RUNNER 2WD,4.0,6,17,22,19
 2016,TOYOTA,SEQUOIA 2WD,5.7,8,13,17,15
-2016,"Volvo Cars of North America, LLC",XC90 FWD,2.0,4,22,26,24
+2016,Volvo,XC90 FWD,2.0,4,22,26,24
 2016,BMW,X5 M,4.4,8,14,19,16
 2016,BMW,X5 xDrive 35d,3.0,6,23,30,26
 2016,BMW,X5 xDrive35i,3.0,6,18,24,20
@@ -1202,5 +1202,5 @@ Model Year,Division,Carline,Eng Displ,# Cyl,City FE,Hwy FE,Comb FE
 2016,TOYOTA,SEQUOIA 4WD FFV,5.7,8,13,17,14
 2016,Volkswagen,Touareg,3.0,6,21,29,24
 2016,Volkswagen,Touareg,3.6,6,17,23,19
-2016,"Volvo Cars of North America, LLC",XC90 AWD,2.0,4,20,25,22
-2016,"Volvo Cars of North America, LLC",XC90 AWD,2.0,4,22,25,23
+2016,Volvo,XC90 AWD,2.0,4,20,25,22
+2016,Volvo,XC90 AWD,2.0,4,22,25,23
