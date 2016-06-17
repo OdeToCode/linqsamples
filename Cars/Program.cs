@@ -16,23 +16,42 @@ namespace Cars
 
             var query =
                 from car in cars
-                where car.Manufacturer == "BMW" && car.Year == 2016
-                orderby car.Combined descending, car.Name ascending
+                group car by car.Manufacturer into carGroup
                 select new
                 {
-                    car.Manufacturer,
-                    car.Name,
-                    car.Combined
-                };
+                    Name = carGroup.Key,
+                    Max = carGroup.Max(c => c.Combined),
+                    Min = carGroup.Min(c => c.Combined),
+                    Avg = carGroup.Average(c => c.Combined)
+                } into result
+                orderby result.Max descending
+                select result;
 
 
+            var query2 =
+                cars.GroupBy(c => c.Manufacturer)
+                    .Select(g =>
+                    {
+                        var results = g.Aggregate(new CarStatistics(),
+                                            (acc, c) => acc.Accumulate(c),
+                                            acc => acc.Compute());
+                        return new
+                        {
+                            Name = g.Key,
+                            Avg = results.Average,
+                            Min = results.Min,
+                            Max = results.Max
+                        };
+                    })
+                    .OrderByDescending(r => r.Max);
 
-
-
-                foreach (var car in query.Take(10))
-                {
-                    Console.WriteLine($"{car.Manufacturer} {car.Name} : {car.Combined}");
-                }
+            foreach (var result in query2)
+            {
+                Console.WriteLine($"{result.Name}");
+                Console.WriteLine($"\t Max: {result.Max}");
+                Console.WriteLine($"\t Min: {result.Min}");
+                Console.WriteLine($"\t Avg: {result.Avg}");
+            }
         }
 
         private static List<Car> ProcessCars(string path)
@@ -66,8 +85,39 @@ namespace Cars
         }
     }
 
+    public class CarStatistics
+    {
+        public CarStatistics()
+        {
+            Max = Int32.MinValue;
+            Min = Int32.MaxValue;
+        }
+        
+        public CarStatistics Accumulate(Car car)
+        {
+            Count += 1;
+            Total += car.Combined;
+            Max = Math.Max(Max, car.Combined);
+            Min = Math.Min(Min, car.Combined);
+            return this;
+        }
+
+        public CarStatistics Compute()
+        {
+            Average = Total / Count;
+            return this;
+        }
+
+        public int Max { get; set; }
+        public int Min { get; set; }
+        public int Total { get; set; }
+        public int Count { get; set; }
+        public double Average { get; set; }
+
+    }
+
     public static class CarExtensions
-    {        
+    {
         public static IEnumerable<Car> ToCar(this IEnumerable<string> source)
         {
             foreach (var line in source)
